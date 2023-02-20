@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="start">
+          <img
+            class="start-burger"
+            height="24"
+            width="24"
+            src="img/burger_menu.svg"
+            alt="Меню"
+          />
+          <a href="#" class="start-logo"
+            ><img height="20" width="90" src="img/logo.svg" alt="YouTube"
+          /></a>
+        </div>
+        <div class="center">
+          <form action="/results" class="search-form">
+            <div class="search" action="/action_page.php">
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Введите запрос"
+              />
+            </div>
+          </form>
+          <button class="search-button" type="submit">
+            <img class="search-button-img" src="img/search.svg" alt="Поиск" />
+          </button>
+          <button class="center-voice">
+            <img
+              height="40"
+              width="40"
+              src="img/voice.svg"
+              alt="Голосовой поиск"
+            />
+          </button>
+        </div>
+        <div class="end">
+          <button class="end-add end-btn">
+            <img
+              height="24"
+              width="24"
+              src="img/add.svg"
+              alt="Добавить видео"
+            />
+          </button>
+          <button class="end-alert end-btn">
+            <img height="24" width="24" src="img/alert.svg" alt="Уведомления" />
+          </button>
+          <button class="end-avatar end-btn">
+            <img height="32" width="32" src="img/ava.png" alt="Фото" />
+          </button>
+        </div>
+      </header>
+      <main class="main">
+        <div class="primary">
+          <div class="primary-video">
+            <iframe
+              class="video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/1xot_TQinug?start=2"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="primary-info">
+            <h1>Музыка для учебы, работы, релаксации и концентрации |#2</h1>
+            <div class="info">
+              <div class="info-text">
+                <span class="info-text-count">296 760</span>
+                <span class="info-text-views">просмотров</span>
+                <span class="info-text-point">.</span>
+                <span class="info-text-date">14 янв. 2021 г.</span>
+              </div>
+              <div class="info-flex"></div>
+              <div class="info-menu">
+                <a class="info-menu-like info-menu-link">
+                  <button class="info-menu-button">
+                    <img
+                      class="info-menu-img"
+                      src="img/like.svg"
+                      alt="Нравится"
+                    />
+                  </button>
+                  <span class="info-menu-text">8,1 тыс.</span>
+                </a>
+                <a class="info-menu-dislike info-menu-link">
+                  <button class="info-menu-button">
+                    <img
+                      class="info-menu-img"
+                      src="img/dislike.svg"
+                      alt="Не нравится"
+                    />
+                  </button>
+                  <span class="info-menu-text">Не нравится</span>
+                </a>
+                <a class="info-menu-share info-menu-link">
+                  <button class="info-menu-button">
+                    <img
+                      class="info-menu-img"
+                      src="img/share.svg"
+                      alt="Поделиться"
+                    />
+                  </button>
+                  <span class="info-menu-text">Поделиться</span>
+                </a>
+                <a class="info-menu-clip info-menu-link">
+                  <button class="info-menu-button">
+                    <img
+                      class="info-menu-img"
+                      src="img/clip.svg"
+                      alt="Создать клип"
+                    />
+                  </button>
+                  <span class="info-menu-text">Создать клип</span>
+                </a>
+                <a class="info-menu-save info-menu-link">
+                  <button class="info-menu-button">
+                    <img
+                      class="info-menu-img"
+                      src="img/save.svg"
+                      alt="Сохранить"
+                    />
+                  </button>
+                  <span class="info-menu-text">Сохранить</span>
+                </a>
+                <a class="info-menu-still">
+                  <button class="info-menu-button-still">
+                    <img class="info-menu-img" src="img/still.svg" alt="Еще" />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="primary-description">
+            <div class="description-top">
+              <a href="#" class="description-top-avatar">
+                <img
+                  class="description-top-avatar-img"
+                  src="img/autor.svg"
+                  alt=""
+                />
+              </a>
+              <div class="description-top-autor">
+                <a href="#" class="description-top-autor-name">rogue music</a>
+                <span class="description-top-autor-text"
+                  >1,41 тыс. подписчиков</span
+                >
+              </div>
+              <button class="description-top-autor-btn">Подписаться</button>
+            </div>
+            <div class="description-content">
+              <p class="description-content-text">
+                Музыка для учебы, работы, релаксации и концентрации |#2 очень
+                крутая музыка и музыку провождает прикольный енот за компьютером
+                &nbsp. 1 час , включили дома и уютная атмосфера .
+              </p>
+              <button class="description-content-btn">
+                <span class="description-content-btn-link">Ещё</span>
+              </button>
+            </div>
+          </div>
+          <div class="primary-header-comments">
+            <div class="header-comments-top">
+              <h2 class="header-comments-top-h2" ->
+                <span class="header-comments-top-h2-count">309</span>
+                <span class="header-comments-top-h2-text">комментариев</span>
+              </h2>
+              <button class="header-comments-top-sort">
+                <img
+                  class="header-comments-top-sort-img"
+                  src="img/sort.svg"
+                  alt="Сортировка"
+                />
+                <span class="header-comments-top-sort-title">Упорядочить</span>
+              </button>
+            </div>
+            <div class="header-comments-publish">
+              <img
+                class="header-comments-publish-img"
+                src="img/ava2.svg"
+                alt="Аватар"
+              />
+              <div class="header-comments-publish-placeholder">
+                <span>Диана А,</span
+                ><span> ваш комментарий будет виден всем.</span>
+              </div>
+            </div>
+          </div>
+          <div class="primary-comments">
+            <div class="comments-body">
+              <a href="" class="comments-img">
+                <img class="comments-img-ava" src="img/ava2.svg" alt="" />
+              </a>
+              <div class="comments">
+                <div class="comments-top">
+                  <span class="comments-top-user">Полианна Полианна</span>
+                  <a href="#" class="comments-top-date">1 год назад</a>
+                </div>
+                <div class="comments-text">
+                  <p>НЕ УДАЛЯЙТЕ ЭТО ВИДЕО! ЭТО ЛУЧШАЯ МУЗЫКА В МОЕЙ ЖИЗНИ</p>
+                </div>
+                <div class="comments-menu">
+                  <a href="#" class="comments-menu-like">
+                    <button class="comments-menu-like-button">
+                      <img
+                        class="comments-menu-like-button-img"
+                        src="img/like16.svg"
+                        alt="Нравится"
+                      />
+                    </button>
+                  </a>
+                  <span class="comments-menu-like-button-count">682</span>
+                  <a href="#" class="comments-menu-dislike">
+                    <button class="comments-menu-dislike-button">
+                      <img
+                        class="comments-menu-dislike-button-img"
+                        src="img/dislike16.svg"
+                        alt="Не нравится"
+                      />
+                    </button>
+                  </a>
+                  <span class="comments-menu-dislike-button-count"></span>
+                  <a href="#" class="comments-menu-answer">
+                    <button class="comments-menu-answer-button">
+                      Ответить
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="comments-bottom">
+              <a href="#" class="comments-bottom-answer">
+                <button class="comments-bottom-answer-button">
+                  <img
+                    class="comments-bottom-answer-button-img"
+                    src="img/arrow.svg"
+                    alt=""
+                  />
+                  <span class="comments-bottom-answer-button-count"
+                    >29 ответов</span
+                  >
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="primary-comments">
+            <div class="comments-body">
+              <a href="" class="comments-img">
+                <img class="comments-img-ava" src="img/ava2.svg" alt="" />
+              </a>
+              <div class="comments">
+                <div class="comments-top">
+                  <span class="comments-top-user">Полианна Полианна</span>
+                  <a href="#" class="comments-top-date">1 год назад</a>
+                </div>
+                <div class="comments-text">
+                  <p>НЕ УДАЛЯЙТЕ ЭТО ВИДЕО! ЭТО ЛУЧШАЯ МУЗЫКА В МОЕЙ ЖИЗНИ</p>
+                </div>
+                <div class="comments-menu">
+                  <a href="#" class="comments-menu-like">
+                    <button class="comments-menu-like-button">
+                      <img
+                        class="comments-menu-like-button-img"
+                        src="img/like16.svg"
+                        alt="Нравится"
+                      />
+                    </button>
+                  </a>
+                  <span class="comments-menu-like-button-count">682</span>
+                  <a href="#" class="comments-menu-dislike">
+                    <button class="comments-menu-dislike-button">
+                      <img
+                        class="comments-menu-dislike-button-img"
+                        src="img/dislike16.svg"
+                        alt="Не нравится"
+                      />
+                    </button>
+                  </a>
+                  <span class="comments-menu-dislike-button-count"></span>
+                  <a href="#" class="comments-menu-answer">
+                    <button class="comments-menu-answer-button">
+                      Ответить
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="comments-bottom">
+              <a href="#" class="comments-bottom-answer">
+                <button class="comments-bottom-answer-button">
+                  <img
+                    class="comments-bottom-answer-button-img"
+                    src="img/arrow.svg"
+                    alt=""
+                  />
+                  <span class="comments-bottom-answer-button-count"
+                    >29 ответов</span
+                  >
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="primary-comments">
+            <div class="comments-body">
+              <a href="" class="comments-img">
+                <img class="comments-img-ava" src="img/ava2.svg" alt="" />
+              </a>
+              <div class="comments">
+                <div class="comments-top">
+                  <span class="comments-top-user">Полианна Полианна</span>
+                  <a href="#" class="comments-top-date">1 год назад</a>
+                </div>
+                <div class="comments-text">
+                  <p>НЕ УДАЛЯЙТЕ ЭТО ВИДЕО! ЭТО ЛУЧШАЯ МУЗЫКА В МОЕЙ ЖИЗНИ</p>
+                </div>
+                <div class="comments-menu">
+                  <a href="#" class="comments-menu-like">
+                    <button class="comments-menu-like-button">
+                      <img
+                        class="comments-menu-like-button-img"
+                        src="img/like16.svg"
+                        alt="Нравится"
+                      />
+                    </button>
+                  </a>
+                  <span class="comments-menu-like-button-count">682</span>
+                  <a href="#" class="comments-menu-dislike">
+                    <button class="comments-menu-dislike-button">
+                      <img
+                        class="comments-menu-dislike-button-img"
+                        src="img/dislike16.svg"
+                        alt="Не нравится"
+                      />
+                    </button>
+                  </a>
+                  <span class="comments-menu-dislike-button-count"></span>
+                  <a href="#" class="comments-menu-answer">
+                    <button class="comments-menu-answer-button">
+                      Ответить
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="comments-bottom">
+              <a href="#" class="comments-bottom-answer">
+                <button class="comments-bottom-answer-button">
+                  <img
+                    class="comments-bottom-answer-button-img"
+                    src="img/arrow.svg"
+                    alt=""
+                  />
+                  <span class="comments-bottom-answer-button-count"
+                    >29 ответов</span
+                  >
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <aside class="aside">
+          <div class="aside-menu">
+            <button class="aside-menu-all aside-menu-button">Все видео</button>
+            <button class="aside-menu-similar aside-menu-button">
+              Похожий контент
+            </button>
+            <button class="aside-menu-last aside-menu-button">Последние</button>
+            <!-- <button></button> -->
+          </div>
+          <div class="aside-content">
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-01 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video01.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  feel better again ☁️ lofi chill mix - soothing beats to calm
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >285 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-video-02 aside-video">
+              <img
+                class="aside-video-img"
+                width="168px"
+                height="94px"
+                src="img/aside/video02.png"
+                alt="Видео"
+              />
+              <div class="aside-video-info">
+                <span class="aside-video-info-name">
+                  Джем&nbsp– Музыка для учебы, работы, релаксации
+                </span>
+                <span class="aside-video-info-channel">saikai</span>
+                <div class="aside-video-info-text">
+                  <span class="aside-video-info-text-count"
+                    >281 тыс. просмотров .</span
+                  >
+                  <span class="aside-video-info-text-date">4 месяца назад</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
